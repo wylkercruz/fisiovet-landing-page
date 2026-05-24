@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fisiovet Palmas - Larissa Leandro</title>
+    <link rel="icon" type="image/png" href="logo_transparente.png">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
@@ -11,59 +12,89 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="logo.png" alt="Logo FisioVet Palmas" height="50" class="d-inline-block align-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-nav-item">
-              <a class="nav-link" href="#servicos">Tratamentos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sobre">A Larissa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#localizacao">Onde Estamos</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+        <div class="container">
+          
+          <a class="navbar-brand text-terracota fw-bold d-flex align-items-center" href="#">
+            <img src="logo2.png" alt="Logo FisioVet" height="40" class="me-2">
+            <span style="font-size: 0.95rem;">Fisiovet Palmas - Larissa Leandro</span>
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Tratamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">A Larissa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#localizacao">Onde Estamos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
     <section class="bg-verde-salvia text-white py-5 text-center">
         <div class="container py-5">
           
           <div class="mb-4">
-              <img src="logo.png" alt="Logo Grande FisioVet" class="img-fluid" style="max-height: 150px;">
+              <img src="logo2.png" alt="Logo Grande FisioVet" class="img-fluid" style="max-height: 150px;">
           </div>
           
           <h1 class="display-4 fw-bold">Recuperando a mobilidade e a alegria do seu pet.</h1>
           <p class="lead mt-3">Fisioterapia Veterinária especializada em Cães e Gatos em Palmas.</p>
-          <a href="#" class="btn btn-terracota btn-lg mt-4">Agendar Avaliação no WhatsApp</a>
+          <a href="https://api.whatsapp.com/send?phone=5563984595995&text=Ol%C3%A1!%20Vi%20o%20site%20da%20FisioVet%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20o%20meu%20pet." target="_blank" class="btn btn-terracota btn-lg mt-4">Agendar Avaliação no WhatsApp</a>
         </div>
       </section>
 
-    <section id="servicos" class="py-5">
+      <section id="servicos" class="py-5">
         <div class="container text-center">
-            <h2 class="text-terracota mb-5">Nossos Tratamentos Principais</h2>
+            <h2 class="text-terracota mb-5 fw-bold">Nossos Tratamentos Principais</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <h3>Esteira Aquática</h3>
-                    <p>Fortalecimento suave e eficaz.</p>
+                
+                <div class="col-md-4 mb-4">
+                    <img src="hidro.png" alt="Tratamento na Esteira Aquática" class="img-fluid rounded shadow-sm mb-3" style="height: 250px; object-fit: cover; width: 100%;">
+                    <h3 class="text-verde-salvia">Esteira Aquática</h3>
+                    <p>Fortalecimento suave e eficaz, reduzindo o impacto nas articulações do seu pet.</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>Laserterapia</h3>
-                    <p>Alívio da dor e cicatrização rápida.</p>
+                
+                <div class="col-md-4 mb-4">
+                    <img src="laser.png" alt="Tratamento com Laserterapia" class="img-fluid rounded shadow-sm mb-3" style="height: 250px; object-fit: cover; width: 100%;">
+                    <h3 class="text-verde-salvia">Laserterapia</h3>
+                    <p>Alívio rápido da dor, redução de inflamações e aceleração do processo de cicatrização.</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>Ozonioterapia</h3>
-                    <p>Tratamento anti-inflamatório natural.</p>
+                
+                <div class="col-md-4 mb-4">
+                    <img src="ozonio.png" alt="Tratamento com Ozonioterapia" class="img-fluid rounded shadow-sm mb-3" style="height: 250px; object-fit: cover; width: 100%;">
+                    <h3 class="text-verde-salvia">Ozonioterapia</h3>
+                    <p>Tratamento natural que melhora a oxigenação celular e atua como um potente anti-inflamatório.</p>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="col-md-5 text-center mb-4 mb-md-0">
+                    <img src="caricatura.png" alt="Caricatura da Dra. Larissa Leandro" class="img-fluid rounded-circle shadow" style="max-width: 300px; border: 4px solid #738F6F;">
+                </div>
+                
+                <div class="col-md-7">
+                    <h2 class="text-terracota fw-bold mb-3">Conheça a Dra. Larissa Leandro</h2>
+                    <h5 class="text-verde-salvia mb-4">Médica Veterinária Especialista em Fisioterapia</h5>
+                    <p>Com dedicação e muito carinho, a Dra. Larissa é a profissional à frente da FisioVet, responsável por devolver a alegria de viver aos pets de Palmas.</p>
+                    <p>Apaixonada pelo que faz, ela une conhecimento técnico avançado a um atendimento humanizado e acolhedor. Cada paciente é tratado de forma única, recebendo protocolos personalizados para garantir a melhor recuperação e qualidade de vida possível.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -79,7 +110,48 @@
             </a>
         </div>
     </section>
+    <footer class="bg-verde-salvia text-white pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4 mb-4">
+                    <h4 class="fw-bold mb-3">FisioVet Palmas</h4>
+                    <p>Especialistas em fisioterapia veterinária para cães e gatos. Devolvendo mobilidade, qualidade de vida e alegria para o seu melhor amigo.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5563984595995&text=Ol%C3%A1!%20Vi%20o%20site%20da%20FisioVet%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20o%20meu%20pet." target="_blank" class="btn btn-terracota btn-sm mt-2">
+                        Chamar no WhatsApp
+                    </a>
+                </div>
 
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Navegação Rápida</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#servicos" class="text-white text-decoration-none">Nossos Tratamentos</a></li>
+                        <li class="mb-2"><a href="#sobre" class="text-white text-decoration-none">A Dra. Larissa</a></li>
+                        <li class="mb-2"><a href="#localizacao" class="text-white text-decoration-none">Onde Estamos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Nosso Endereço</h5>
+                    <p class="mb-1"><strong>Sede no Hospital MedicalVet:</strong></p>
+                    <p class="mb-1 small">
+                        Quadra ACSE 90 Alameda 11, Lote 13<br>
+                        Plano Diretor Sul, Palmas - TO<br>
+                        CEP: 77023-345
+                    </p>
+                </div>
+
+            </div>
+
+            <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,0.2);">
+            
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="small mb-0">&copy; 2026 FisioVet Palmas - Dra. Larissa Leandro. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
