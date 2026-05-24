@@ -28,3 +28,8 @@
 .bg-nude {
     background-color: #F8F1E9 !important; /* Cor aproximada para fundos suaves */
 }
+
+/* Efeito de transição suave para o menu */
+#menu-principal {
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
