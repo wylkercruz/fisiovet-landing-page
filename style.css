@@ -1,0 +1,30 @@
+/* style.css - Cores baseadas na logo da Fisiovet */
+
+/* 1. Verde Sálvia */
+.bg-verde-salvia {
+    background-color: #738F6F !important; /* Cor aproximada da logo */
+}
+
+.text-verde-salvia {
+    color: #738F6F !important;
+}
+
+/* 2. Castanho/Terracota */
+.text-terracota {
+    color: #B26C3B !important; /* Cor aproximada da logo */
+}
+
+.btn-terracota {
+    background-color: #B26C3B !important;
+    color: white !important;
+    border: none;
+}
+
+.btn-terracota:hover {
+    background-color: #8E562F !important; /* Um pouco mais escuro para o efeito de passar o mouse */
+}
+
+/* 3. Nude/Creme Suave */
+.bg-nude {
+    background-color: #F8F1E9 !important; /* Cor aproximada para fundos suaves */
+}
